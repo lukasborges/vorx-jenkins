@@ -8,4 +8,4 @@ echo "** Logging in ***"
 docker login -u eulukeborges -p $HUB_PASSWORD
 
 echo "*** Pushing image ***"
-docker push eulukeborges/vorx-jenkins:$BUILD_NUMBER
+docker push eulukeborges/jenkins:$BUILD_NUMBER
