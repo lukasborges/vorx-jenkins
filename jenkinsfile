@@ -7,5 +7,10 @@ pipeline {
                 sh './build.sh'
             }
         }
+        stage('Push to Registry') {
+            steps {
+                sh './push.sh'
+            }
+        }
     }
 }
